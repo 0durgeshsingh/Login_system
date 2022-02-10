@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: blue;">
+    <div class="container-fluid">
+        <div class="card m-5 p-5">
+            <p class="text-center display-4">Login Here ...</p>
+            <form action="login.php" method="post" class="m-3">
+                <div class="col-9">
+                    <label class="ms-5 mb-1">Username or email</label>
+                    <input type="text" class="form-control ms-5 " name="user">
+                </div>
+                <div class="col-9">
+                    <label class="ms-5 mb-1">Password</label>
+                    <input type="password" class="form-control ms-5 " name="pass">
+                </div>
+                <div class="col-9 mt-2">
+                    <button type="submit" name="login" class="btn btn-primary ms-5">Login</button>
+                </div>
+                <div class="col-9 ms-5 mt-3">
+                    Don't have Account ?<a href="register.html">Register here</a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
